@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FirstCode</title>
+</head>
+<body>
+
+    <h1>Hello This is My First Page</h1>
+    <p id="demo"></p>
+    <button>Click Me</button>
+
+    <script>
+        let a = 100;
+        let b = 'Parth';
+        let c = true;
+        let d = null;
+        let MyCar = {firstName:'JEEP',lastName:'CAR'};
+        let NewCar = MyCar;
+        let x = 10 , y = 15 , z = x * y;
+        
+        document.querySelector("h1").style.textAlign="center";
+        document.querySelector("h1").style.color="red";
+        document.querySelector("h1").style.padding="50px";
+        document.querySelector("h1").style.border="1px solid red";
+        document.querySelector("h1").style.backgroundColor="gray";
+        document.querySelector("button").style.backgroundColor="red";
+        document.querySelector("button").style.padding="10px 20px";
+        document.querySelector("button").style.border="0";
+        document.querySelector("button").style.color="black";
+        document.querySelector("button").style.fontWeight="700";
+        console.log(typeof(a));
+        console.log(typeof(b));
+        console.log(typeof(c));
+        console.log(typeof(d));       //Object
+        console.log(typeof(MyCar));   //Object
+        console.log(typeof(NewCar));  //Object
+        console.log(NewCar.firstName);
+        console.log(NewCar.lastName);
+        console.log(NewCar);
+        console.log("sum of x + y = ",x+y);
+        console.log("multiplication of x & y = ",z);
+
+    </script>
+    
+</body>
+</html>
